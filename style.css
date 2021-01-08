@@ -148,6 +148,10 @@ code .signature-punctuation:before, code .signature-punctuation:after
 {
     content: '\2009';
 }
+code .signature-operator:after, code .syntax-operator:after
+{
+    content: '\00A0';
+}
 
 a:focus 
 {
