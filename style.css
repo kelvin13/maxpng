@@ -58,7 +58,11 @@ h3
 .topic-blurb 
 {
 }
-.topic-required, .topic-symbol-required
+.topic-relationships 
+{
+    line-height: 140%;
+}
+.topic-relationships, .topic-symbol-relationships
 {
     font-size: 1.05em;
     color: #555555;
@@ -346,7 +350,7 @@ a
         text-decoration-color: #ff4086;
     }
     /* underline style for inline code */
-    p code, p code a
+    p code, p code span, p code a
     {
         text-decoration: underline;
         text-decoration-style: dashed;
@@ -367,7 +371,7 @@ a
     {
         border-bottom: 1px solid #ff4086;
     }
-    p code, p code a
+    p code, p code span, p code a
     {
         border-bottom: 1px dashed;
     }
